@@ -1,5 +1,5 @@
 // 경기북부 메인 (/)
-import { pricingBlock, faqBlock, whwBlock } from "../render.mjs";
+import { pricingBlock, faqBlock, whwBlock, heroMedia } from "../render.mjs";
 import { REVIEWS } from "./reviews.mjs";
 
 const areaCards = [
@@ -52,7 +52,7 @@ const miniCard = (t, h) => `<a class="card card--link" href="${h}"><h3 style="fo
 
 const body = `
   <section class="hero">
-    <div class="wrap hero__grid">
+    <div class="wrap hero__grid hero__grid--split">
       <div>
         <span class="eyebrow">경기북부 · 생활권 안내</span>
         <h1>경기북부 출장마사지<br>생활권별 방문 가능 지역 안내</h1>
@@ -65,6 +65,7 @@ const body = `
           ${areaCards.map((a) => `<a class="chip" href="${a.h}">${a.t} 보기</a>`).join("")}
         </div>
       </div>
+      ${heroMedia("경기북부 신도시 야경과 편안한 홈케어 분위기 이미지")}
     </div>
   </section>
 

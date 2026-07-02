@@ -1,5 +1,5 @@
 // 5대 북부 생활권 페이지
-import { pricingBlock, faqBlock, whwBlock } from "../render.mjs";
+import { pricingBlock, faqBlock, whwBlock, heroMedia } from "../render.mjs";
 
 const checklist = [
   "방문 주소와 상세 동·호수를 확인했나요?",
@@ -13,15 +13,18 @@ const relCard = (t, h) => `<a class="card card--link" href="${h}"><h3 style="fon
 
 function areaPage(cfg) {
   const body = `
-  <section class="section section--tight">
-    <div class="wrap">
-      <span class="eyebrow">${cfg.eyebrow}</span>
-      <h1 style="font-size:var(--fs-hero);max-width:22ch">${cfg.h1}</h1>
-      <p class="lead" style="max-width:70ch;color:var(--text-muted)">${cfg.lead}</p>
-      <div class="hero__cta" style="margin-top:18px">
-        <a class="btn btn--primary btn--lg" href="tel:0508-202-4719">전화예약 0508-202-4719</a>
-        <a class="btn btn--ghost btn--lg" href="/gyeonggi-north/check/">예약 전 확인</a>
+  <section class="hero">
+    <div class="wrap hero__grid hero__grid--split">
+      <div>
+        <span class="eyebrow">${cfg.eyebrow}</span>
+        <h1 style="font-size:var(--fs-hero);max-width:22ch">${cfg.h1}</h1>
+        <p class="lead" style="max-width:70ch;color:var(--text-muted)">${cfg.lead}</p>
+        <div class="hero__cta" style="margin-top:18px">
+          <a class="btn btn--primary btn--lg" href="tel:0508-202-4719">전화예약 0508-202-4719</a>
+          <a class="btn btn--ghost btn--lg" href="/gyeonggi-north/check/">예약 전 확인</a>
+        </div>
       </div>
+      ${heroMedia(`${cfg.crumb} 생활권 안내 이미지`)}
     </div>
   </section>
 

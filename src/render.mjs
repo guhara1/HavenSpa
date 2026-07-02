@@ -42,6 +42,12 @@ export function pricingBlock() {
   </section>`;
 }
 
+// ---- Hero media (메인~모든 지역 공통 히어로 이미지) ---------------------
+export function heroMedia(alt) {
+  return `<div class="hero__media"><img src="${SITE.heroImage}" width="760" height="720"
+    alt="${esc(alt || "경기북부 신도시 야경과 편안한 홈케어 분위기 이미지")}" loading="eager" decoding="async"></div>`;
+}
+
 // ---- FAQ block -----------------------------------------------------------
 export function faqBlock(faqs = []) {
   if (!faqs.length) return "";
