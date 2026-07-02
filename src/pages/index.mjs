@@ -65,7 +65,7 @@ const body = `
           ${areaCards.map((a) => `<a class="chip" href="${a.h}">${a.t} 보기</a>`).join("")}
         </div>
       </div>
-      ${heroMedia("경기북부 신도시 야경과 편안한 홈케어 분위기 이미지")}
+      ${heroMedia("시티 나이트뷰가 보이는 프리미엄 스파룸 분위기 이미지")}
     </div>
   </section>
 

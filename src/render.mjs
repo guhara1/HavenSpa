@@ -44,8 +44,8 @@ export function pricingBlock() {
 
 // ---- Hero media (메인~모든 지역 공통 히어로 이미지) ---------------------
 export function heroMedia(alt) {
-  return `<div class="hero__media"><img src="${SITE.heroImage}" width="760" height="720"
-    alt="${esc(alt || "경기북부 신도시 야경과 편안한 홈케어 분위기 이미지")}" loading="eager" decoding="async"></div>`;
+  return `<div class="hero__media"><img src="${SITE.heroImage}" width="1152" height="864"
+    alt="${esc(alt || "시티 나이트뷰가 보이는 프리미엄 스파룸 분위기 이미지")}" loading="eager" decoding="async" fetchpriority="high"></div>`;
 }
 
 // ---- FAQ block -----------------------------------------------------------

@@ -95,7 +95,8 @@ p { margin: 0 0 1em; }
 @media (max-width: 900px){ .hero__grid--split { grid-template-columns: 1fr; } }
 .hero__media { position: relative; }
 .hero__media img {
-  width: 100%; border-radius: var(--r-xl); border: 1px solid var(--line-strong);
+  width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;
+  border-radius: var(--r-xl); border: 1px solid var(--line-strong);
   box-shadow: var(--shadow-lg); background: var(--ink-850);
 }
 .hero__media::after {

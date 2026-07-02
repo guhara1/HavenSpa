@@ -16,8 +16,8 @@ export const SITE = {
     web: "https://t.me/gandago_web",   // 웹사이트 제작문의
     ad: "https://t.me/gandago_ad",     // 제휴문의
   },
-  ogImage: "/assets/img/og-cover.svg",
-  heroImage: "/assets/img/hero.svg",
+  ogImage: "/assets/img/hero.webp",
+  heroImage: "/assets/img/hero.webp",
 };
 
 // 상단 내비게이션 (메뉴명에 "출장마사지" 반복 금지)

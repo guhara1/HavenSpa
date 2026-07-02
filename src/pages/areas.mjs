@@ -24,7 +24,7 @@ function areaPage(cfg) {
           <a class="btn btn--ghost btn--lg" href="/gyeonggi-north/check/">예약 전 확인</a>
         </div>
       </div>
-      ${heroMedia(`${cfg.crumb} 생활권 안내 이미지`)}
+      ${heroMedia(`${cfg.crumb} 프리미엄 스파룸 분위기 이미지`)}
     </div>
   </section>
 
