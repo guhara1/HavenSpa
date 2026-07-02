@@ -14,7 +14,7 @@ const checklist = [
 const relCard = (t, h) => `<a class="card card--link" href="${h}"><h3 style="font-size:1.05rem">${t}</h3></a>`;
 const chip = (t) => `<span class="chip" style="cursor:default">${t}</span>`;
 
-function cityPage(cfg) {
+export function cityPage(cfg) {
   const body = `
   <section class="hero">
     <div class="wrap hero__grid hero__grid--split">

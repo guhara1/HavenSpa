@@ -12,17 +12,33 @@ import areaPages from "./src/pages/areas.mjs";
 import infoPages from "./src/pages/info.mjs";
 import reviewsPage from "./src/pages/reviews.mjs";
 import cityPages from "./src/pages/cities.mjs";
+import districtPages from "./src/pages/districts.mjs";
+import usePages from "./src/pages/use.mjs";
+import checkPages from "./src/pages/check.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
-const pages = [indexPage, ...areaPages, ...cityPages, ...infoPages, reviewsPage];
+const pages = [indexPage, ...areaPages, ...cityPages, ...districtPages, ...usePages, ...checkPages, ...infoPages, reviewsPage];
 
 function outPath(routePath) {
   if (routePath === "/") return join(ROOT, "index.html");
   return join(ROOT, routePath.replace(/^\//, "").replace(/\/$/, ""), "index.html");
 }
 
-let count = 0;
+// 스팸/thin-content 안전망: 본문 2,000자 미만 페이지는 자동 noindex,follow
+// (지시서 19항 "2,000자 미만이면 임시 noindex". 홈은 예외, page.index=true로 강제 색인 가능)
+const INDEX_MIN = 2000;
+function visibleLen(body = "") {
+  return [...body.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()].length;
+}
 for (const page of pages) {
+  if (page.path !== "/" && page.index !== true && !page.noindex) {
+    if (visibleLen(page.body) < INDEX_MIN) page.noindex = true;
+  }
+}
+
+let count = 0, indexed = 0, noindexed = 0;
+for (const page of pages) {
+  page.noindex ? noindexed++ : indexed++;
   const html = renderPage(page);
   const file = outPath(page.path);
   await mkdir(dirname(file), { recursive: true });
@@ -48,4 +64,4 @@ const robots = `User-agent: *\nAllow: /\n\nSitemap: ${SITE.base}/sitemap.xml\n`;
 await writeFile(join(ROOT, "robots.txt"), robots, "utf8");
 console.log("✔ robots.txt");
 
-console.log(`\n완료: ${count}개 페이지 생성.`);
+console.log(`\n완료: ${count}개 페이지 생성 (색인 ${indexed} · noindex ${noindexed}).`);

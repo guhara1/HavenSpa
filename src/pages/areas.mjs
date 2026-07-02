@@ -30,7 +30,7 @@ function areaPage(cfg) {
 
   <section class="section section--tight">
     <div class="wrap prose" style="max-width:80ch">
-      ${cfg.article}
+      ${cfg.article}${cfg.venues || ""}
     </div>
   </section>
 
@@ -147,6 +147,8 @@ const namyangju = areaPage({
     <p>신도시와 외곽은 확인 항목이 다릅니다. <a href="/gyeonggi-north/check/">예약 전 확인</a>에서 공통 항목을, 외곽은 이동 기준을 추가로 확인하세요.</p>
     <h2>운영 기준·개인정보·불법 서비스 불가</h2>
     <p>최소한의 예약 정보만 확인하며 <a href="/gyeonggi-north/check/privacy/">개인정보 처리방침</a>을 따릅니다. 불법·선정적 서비스는 안내하지 않습니다(<a href="/gyeonggi-north/check/service-policy/">불가 안내</a>).</p>
+    <h2>남양주·구리권 이용 장소 참고</h2>
+    <p>이 권역은 신도시 아파트, 오피스텔, 외곽 단독·전원주택이 고루 섞여 있어 방문 장소에 따라 확인 항목이 달라집니다. 다산·별내의 <a href="/gyeonggi-north/use/apartment/">아파트 단지</a>는 방문 차량 등록과 지하주차장 진입 방식을, 구리역 인근 <a href="/gyeonggi-north/use/officetel/">오피스텔</a>은 공동현관과 방문객 엘리베이터를 확인합니다. 화도·마석 등 외곽은 <a href="/gyeonggi-north/use/outer-area/">외곽 지역 이용</a> 기준에 따라 진입로와 예약 가능 시간을 먼저 확인하는 것이 좋습니다. 도시별 세부 안내는 <a href="/gyeonggi-north/namyangju-si/">남양주시</a>·<a href="/gyeonggi-north/guri-si/">구리시</a>에서 확인할 수 있습니다.</p>
   `,
   zones: [
     { t: "다산·도농", d: "지하철·광역버스 연결 신도시" },
@@ -198,6 +200,8 @@ const uijeongbu = areaPage({
     <p>역세권·신도시·외곽은 확인 항목이 다릅니다. <a href="/gyeonggi-north/check/">예약 전 확인</a>에서 공통 항목과 공동현관 확인을 참고하세요.</p>
     <h2>운영 기준·개인정보·불법 서비스 불가</h2>
     <p>최소 정보만 확인하며 <a href="/gyeonggi-north/check/privacy/">개인정보 처리방침</a>을 따릅니다. 불법·선정적 서비스는 안내하지 않습니다(<a href="/gyeonggi-north/check/service-policy/">불가 안내</a>).</p>
+    <h2>의정부·양주권 이용 장소 참고</h2>
+    <p>의정부는 역세권 상권의 <a href="/gyeonggi-north/use/officetel/">오피스텔</a> 비중이 높아 공동현관 인증과 방문객 엘리베이터, 심야 출입 방식을 확인하는 것이 중요합니다. 민락·옥정의 <a href="/gyeonggi-north/use/apartment/">아파트 단지</a>는 지하주차장 방문 등록과 지상 차량 통제 여부를 함께 확인합니다. 양주 백석·광적·장흥 등 외곽은 <a href="/gyeonggi-north/use/outer-area/">외곽 지역 이용</a> 기준에 따라 차량 이동과 예약 가능 시간을 조율합니다. 도시별 세부 안내는 <a href="/gyeonggi-north/uijeongbu-si/">의정부시</a>·<a href="/gyeonggi-north/yangju-si/">양주시</a>에서 확인할 수 있습니다.</p>
   `,
   zones: [
     { t: "의정부역·중앙로", d: "상권·오피스텔 밀집 중심" },
@@ -249,6 +253,8 @@ const paju = areaPage({
     <p>신도시와 접경·관광권은 확인 항목이 다릅니다. <a href="/gyeonggi-north/check/">예약 전 확인</a>에서 공통 항목을, 관광 숙소는 출입 방식을 추가로 확인하세요.</p>
     <h2>운영 기준·개인정보·불법 서비스 불가</h2>
     <p>최소 정보만 확인하며 <a href="/gyeonggi-north/check/privacy/">개인정보 처리방침</a>을 따릅니다. 불법·선정적 서비스는 안내하지 않습니다(<a href="/gyeonggi-north/check/service-policy/">불가 안내</a>).</p>
+    <h2>파주·운정권 이용 장소 참고</h2>
+    <p>운정신도시는 최근 지어진 <a href="/gyeonggi-north/use/apartment/">아파트 단지</a>와 <a href="/gyeonggi-north/use/officetel/">오피스텔</a>이 많아 공동현관 인증 방식과 방문 차량 등록 절차가 단지·건물마다 다릅니다. 예약 시 최신 출입 방법을 확인하면 대기 없이 방문할 수 있습니다. 문산·탄현·교하 등 접경·관광권은 <a href="/gyeonggi-north/use/outer-area/">외곽 지역 이용</a>과 <a href="/gyeonggi-north/use/pension-private-stay/">펜션·독채 숙소 이용</a> 기준을 함께 확인해 진입로와 예약 가능 시간을 조율합니다. 도시 세부 안내는 <a href="/gyeonggi-north/paju-si/">파주시</a>에서 확인할 수 있습니다.</p>
   `,
   zones: [
     { t: "운정신도시", d: "아파트·오피스텔·상권 밀집" },
@@ -300,6 +306,8 @@ const outer = areaPage({
     <p>외곽·접경 지역은 예약 가능 시간과 이동 기준이 달라질 수 있습니다. <a href="/gyeonggi-north/check/">예약 전 확인</a>에서 외곽 이동 기준을 먼저 확인하세요.</p>
     <h2>운영 기준·개인정보·불법 서비스 불가</h2>
     <p>최소 정보만 확인하며 <a href="/gyeonggi-north/check/privacy/">개인정보 처리방침</a>을 따릅니다. 불법·선정적 서비스는 안내하지 않습니다(<a href="/gyeonggi-north/check/service-policy/">불가 안내</a>).</p>
+    <h2>외곽·관광권 이용 장소 참고</h2>
+    <p>이 권역은 도심 주거지보다 <a href="/gyeonggi-north/use/pension-private-stay/">펜션·독채 숙소</a>와 <a href="/gyeonggi-north/use/tour-accommodation/">관광지 인접 숙소</a> 이용이 많습니다. 가평·청평·설악·포천 외곽의 숙소는 같은 단지 안에서도 진입로와 주차 위치가 달라 숙소명·정확한 주소·야간 출입 방식을 먼저 확인해야 합니다. 동두천 지행·생연의 <a href="/gyeonggi-north/use/apartment/">아파트 단지</a>는 공동현관과 주차 동선을 확인합니다. 장거리 구간은 <a href="/gyeonggi-north/check/travel-fee/">외곽 이동 기준</a>에 따라 예약 가능 시간을 조율하며, 도시별 세부 안내는 <a href="/gyeonggi-north/pocheon-si/">포천시</a>·<a href="/gyeonggi-north/gapyeong-gun/">가평군</a>에서 확인할 수 있습니다.</p>
   `,
   zones: [
     { t: "포천 송우리·소흘", d: "포천 도심 생활권" },

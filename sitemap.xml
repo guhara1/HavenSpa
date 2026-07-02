@@ -81,37 +81,17 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/pricing/</loc>
+    <loc>https://gandago.kr/gyeonggi-north/goyang-si/ilsandong-gu/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/</loc>
+    <loc>https://gandago.kr/gyeonggi-north/goyang-si/ilsanseo-gu/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/privacy/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/service-policy/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gandago.kr/gyeonggi-north/operation/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gandago.kr/gyeonggi-north/contact/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gandago.kr/gyeonggi-north/reviews/</loc>
+    <loc>https://gandago.kr/gyeonggi-north/goyang-si/deogyang-gu/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

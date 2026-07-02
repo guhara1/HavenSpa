@@ -28,8 +28,8 @@ export const NAV = [
   { label: "의정부·양주권", href: "/gyeonggi-north/area/uijeongbu-yangju/" },
   { label: "파주·운정권", href: "/gyeonggi-north/area/paju-unjeong/" },
   { label: "외곽·관광권", href: "/gyeonggi-north/area/pocheon-dongducheon-gapyeong-yeoncheon/" },
-  { label: "이용 안내", href: "/gyeonggi-north/check/" },
-  { label: "문의하기", href: "/gyeonggi-north/contact/" },
+  { label: "이용 장소", href: "/gyeonggi-north/use/" },
+  { label: "예약 전 확인", href: "/gyeonggi-north/check/" },
 ];
 
 // 푸터 링크 그룹
@@ -48,9 +48,11 @@ export const FOOTER_LINKS = {
     title: "이용 정보",
     items: [
       { label: "요금 안내", href: "/gyeonggi-north/pricing/" },
+      { label: "이용 장소", href: "/gyeonggi-north/use/" },
       { label: "이용 후기", href: "/gyeonggi-north/reviews/" },
       { label: "예약 전 확인", href: "/gyeonggi-north/check/" },
       { label: "운영 기준", href: "/gyeonggi-north/operation/" },
+      { label: "문의하기", href: "/gyeonggi-north/contact/" },
       { label: "개인정보 처리방침", href: "/gyeonggi-north/check/privacy/" },
       { label: "불법·선정적 서비스 불가 안내", href: "/gyeonggi-north/check/service-policy/" },
     ],
