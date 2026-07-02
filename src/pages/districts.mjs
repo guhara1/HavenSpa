@@ -1,6 +1,6 @@
 // 고양시 3개 구 상세페이지 (일산동구·일산서구·덕양구)
 // 도어웨이 방지: 구별 행정동·상권·숙소 형태·역세권을 다르게 작성.
-import { cityPage } from "./cities.mjs";
+import { cityPage, L } from "./cities.mjs";
 
 const GOYANG = { name: "고양시", href: "/gyeonggi-north/goyang-si/" };
 
@@ -8,6 +8,7 @@ const GOYANG = { name: "고양시", href: "/gyeonggi-north/goyang-si/" };
 const ilsandong = cityPage({
   path: "/gyeonggi-north/goyang-si/ilsandong-gu/", crumb: "일산동구", parent: GOYANG,
   eyebrow: "고양시 · 일산동구",
+  dongs: [["마두동", L.maduBaekseok], ["백석동", L.maduBaekseok], ["정발산동", L.ilsanLake], ["장항동", L.ilsanLake], ["풍동", L.ilsanLake]],
   title: "일산동구 출장마사지｜마두·백석·정발산 안내 - 간다GO",
   description: "일산동구 출장마사지·홈타이. 마두·백석·정발산 호수공원 상권·오피스텔 안내.",
   h1: "일산동구 출장마사지 · 마두·백석·정발산 생활권 안내",
@@ -55,6 +56,7 @@ const ilsandong = cityPage({
 const ilsanseo = cityPage({
   path: "/gyeonggi-north/goyang-si/ilsanseo-gu/", crumb: "일산서구", parent: GOYANG,
   eyebrow: "고양시 · 일산서구",
+  dongs: [["주엽동", L.juyeopDaehwa], ["대화동", L.juyeopDaehwa], ["탄현동", L.juyeopDaehwa], ["일산동", L.juyeopDaehwa]],
   title: "일산서구 출장마사지｜주엽·대화·킨텍스 안내 - 간다GO",
   description: "일산서구 출장마사지·홈타이. 주엽·대화·탄현과 킨텍스 인접 숙소 이용 안내.",
   h1: "일산서구 출장마사지 · 주엽·대화·킨텍스 생활권 안내",
@@ -102,6 +104,7 @@ const ilsanseo = cityPage({
 const deogyang = cityPage({
   path: "/gyeonggi-north/goyang-si/deogyang-gu/", crumb: "덕양구", parent: GOYANG,
   eyebrow: "고양시 · 덕양구",
+  dongs: [["화정동", L.hwajeongHaengsin], ["행신동", L.hwajeongHaengsin], ["삼송동", L.samsongWonheung], ["원흥동", L.samsongWonheung], ["지축동", L.jichukHyangdong], ["향동동", L.jichukHyangdong]],
   title: "덕양구 출장마사지｜화정·삼송·원흥·지축 안내 - 간다GO",
   description: "덕양구 출장마사지·홈타이. 화정·행신·삼송·원흥·지축 서울 접경 택지 안내.",
   h1: "덕양구 출장마사지 · 화정·삼송·원흥·지축 생활권 안내",

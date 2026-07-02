@@ -42,6 +42,20 @@ export function cityPage(cfg) {
     </div>
   </section>
 
+  ${cfg.subAreas ? `<section class="section section--tight">
+    <div class="wrap">
+      <div class="sec-head center"><h2>${cfg.subAreasTitle || "구·생활권 바로가기"}</h2><p>지역을 선택하면 해당 안내 페이지로 이동합니다.</p></div>
+      <div class="grid grid--3">${cfg.subAreas.map(([t, h]) => `<a class="card card--link" href="${h}"><h3 style="font-size:1.05rem">${t}</h3></a>`).join("")}</div>
+    </div>
+  </section>` : ""}
+
+  ${cfg.dongs ? `<section class="section section--tight">
+    <div class="wrap">
+      <div class="sec-head center"><h2>행정동·읍면 바로가기</h2><p>동·읍·면 이름을 누르면 해당 생활권 안내로 이동합니다.</p></div>
+      <div class="chiprow" style="justify-content:center;max-width:900px;margin-inline:auto">${cfg.dongs.map(([t, h]) => `<a class="chip" href="${h}">${t}</a>`).join("")}</div>
+    </div>
+  </section>` : ""}
+
   <section class="section section--tight">
     <div class="wrap">
       <div class="sec-head center"><h2>가까운 역·터미널</h2><p>출구별·노선별 페이지는 만들지 않으며, 이동 기준 확인용 거점만 안내합니다.</p></div>
@@ -81,6 +95,23 @@ export function cityPage(cfg) {
   };
 }
 
+// 생활권(life) URL 맵 — 행정동 버튼이 연결될 실제 페이지
+export const L = {
+  ilsanLake: "/gyeonggi-north/life/ilsan-lake-park/", maduBaekseok: "/gyeonggi-north/life/madu-baekseok/",
+  juyeopDaehwa: "/gyeonggi-north/life/juyeop-daehwa/", hwajeongHaengsin: "/gyeonggi-north/life/hwajeong-haengsin/",
+  samsongWonheung: "/gyeonggi-north/life/samsong-wonheung/", jichukHyangdong: "/gyeonggi-north/life/jichuk-hyangdong/",
+  dasanDonong: "/gyeonggi-north/life/dasan-donong/", byeollaeGalmae: "/gyeonggi-north/life/byeollae-galmae/",
+  pyeongnaeHopyeong: "/gyeonggi-north/life/pyeongnae-hopyeong/", jinjeopOnam: "/gyeonggi-north/life/jinjeop-onam/",
+  hwadoMaseok: "/gyeonggi-north/life/hwado-maseok/", uijeongbuCentral: "/gyeonggi-north/life/uijeongbu-station-central/",
+  minrakGosan: "/gyeonggi-north/life/minrak-gosan/", geumoSingok: "/gyeonggi-north/life/geumo-singok/",
+  hoeryongGaneung: "/gyeonggi-north/life/hoeryong-ganeung/", okjeong: "/gyeonggi-north/life/okjeong/",
+  deokjeongHoecheon: "/gyeonggi-north/life/deokjeong-hoecheon/", unjeong: "/gyeonggi-north/life/unjeong-newtown/",
+  yadangWadong: "/gyeonggi-north/life/yadang-wadong/", geumchon: "/gyeonggi-north/life/geumchon-paju-cityhall/",
+  munsan: "/gyeonggi-north/life/munsan-north-paju/", songuriSoheul: "/gyeonggi-north/life/songuri-soheul/",
+  jihaengSaengyeon: "/gyeonggi-north/life/jihaeng-saengyeon/", gapyeongCheongpyeong: "/gyeonggi-north/life/gapyeong-cheongpyeong/",
+  jeongok: "/gyeonggi-north/life/jeongok-yeoncheon/",
+};
+
 const AREA = {
   goyang: { name: "고양·일산권", href: "/gyeonggi-north/area/goyang-ilsan/" },
   ny: { name: "남양주·구리권", href: "/gyeonggi-north/area/namyangju-guri/" },
@@ -93,6 +124,18 @@ const AREA = {
 const goyang = cityPage({
   path: "/gyeonggi-north/goyang-si/", crumb: "고양시", parent: AREA.goyang,
   eyebrow: "도시·군 안내 · 고양시",
+  subAreasTitle: "고양시 3개 구 바로가기",
+  subAreas: [
+    ["일산동구", "/gyeonggi-north/goyang-si/ilsandong-gu/"],
+    ["일산서구", "/gyeonggi-north/goyang-si/ilsanseo-gu/"],
+    ["덕양구", "/gyeonggi-north/goyang-si/deogyang-gu/"],
+  ],
+  dongs: [
+    ["마두동", L.maduBaekseok], ["백석동", L.maduBaekseok], ["정발산동", L.ilsanLake], ["장항동", L.ilsanLake],
+    ["주엽동", L.juyeopDaehwa], ["대화동", L.juyeopDaehwa], ["탄현동", L.juyeopDaehwa],
+    ["화정동", L.hwajeongHaengsin], ["행신동", L.hwajeongHaengsin], ["삼송동", L.samsongWonheung], ["원흥동", L.samsongWonheung],
+    ["지축동", L.jichukHyangdong], ["향동동", L.jichukHyangdong],
+  ],
   title: "고양시 출장마사지｜일산동구·서구·덕양구 안내 - 간다GO",
   description: "고양시 출장마사지·홈타이. 일산동구·일산서구·덕양구 3개 구 생활권 안내.",
   h1: "고양시 출장마사지 · 일산동구·서구·덕양구 안내",
@@ -142,6 +185,16 @@ const goyang = cityPage({
 const namyangju = cityPage({
   path: "/gyeonggi-north/namyangju-si/", crumb: "남양주시", parent: AREA.ny,
   eyebrow: "도시·군 안내 · 남양주시",
+  subAreasTitle: "남양주 생활권 바로가기",
+  subAreas: [
+    ["다산·도농", L.dasanDonong], ["별내·갈매", L.byeollaeGalmae], ["평내호평", L.pyeongnaeHopyeong],
+    ["진접·오남", L.jinjeopOnam], ["화도·마석", L.hwadoMaseok],
+  ],
+  dongs: [
+    ["다산동", L.dasanDonong], ["도농동", L.dasanDonong], ["별내동", L.byeollaeGalmae], ["평내동", L.pyeongnaeHopyeong],
+    ["호평동", L.pyeongnaeHopyeong], ["진접읍", L.jinjeopOnam], ["오남읍", L.jinjeopOnam], ["화도읍", L.hwadoMaseok],
+    ["와부읍", L.hwadoMaseok], ["퇴계원읍", L.byeollaeGalmae],
+  ],
   title: "남양주시 출장마사지｜다산·별내·화도 이용 기준 - 간다GO",
   description: "남양주시 출장마사지·홈타이. 다산·별내 신도시와 진접·화도 외곽 이동 안내.",
   h1: "남양주시 출장마사지 · 다산·별내·외곽 읍면 이용 기준",
@@ -189,6 +242,14 @@ const namyangju = cityPage({
 const paju = cityPage({
   path: "/gyeonggi-north/paju-si/", crumb: "파주시", parent: AREA.paju,
   eyebrow: "도시·군 안내 · 파주시",
+  subAreasTitle: "파주 생활권 바로가기",
+  subAreas: [
+    ["운정신도시", L.unjeong], ["야당·와동", L.yadangWadong], ["금촌·파주시청", L.geumchon], ["문산·파주북부", L.munsan],
+  ],
+  dongs: [
+    ["운정동", L.unjeong], ["동패동", L.unjeong], ["교하동", L.unjeong], ["야당동", L.yadangWadong], ["와동동", L.yadangWadong],
+    ["금촌동", L.geumchon], ["문산읍", L.munsan], ["탄현면", L.munsan], ["조리읍", L.geumchon],
+  ],
   title: "파주시 출장마사지｜운정신도시·금촌·문산 안내 - 간다GO",
   description: "파주시 출장마사지·홈타이. 운정신도시와 금촌·문산·탄현 접경권 이용 안내.",
   h1: "파주시 출장마사지 · 운정신도시·금촌·문산 안내",
@@ -236,6 +297,14 @@ const paju = cityPage({
 const uijeongbu = cityPage({
   path: "/gyeonggi-north/uijeongbu-si/", crumb: "의정부시", parent: AREA.uj,
   eyebrow: "도시·군 안내 · 의정부시",
+  subAreasTitle: "의정부 생활권 바로가기",
+  subAreas: [
+    ["의정부역·중앙로", L.uijeongbuCentral], ["민락·고산", L.minrakGosan], ["금오·신곡", L.geumoSingok], ["회룡·가능", L.hoeryongGaneung],
+  ],
+  dongs: [
+    ["의정부동", L.uijeongbuCentral], ["민락동", L.minrakGosan], ["금오동", L.geumoSingok], ["신곡동", L.geumoSingok],
+    ["가능동", L.hoeryongGaneung], ["호원동", L.hoeryongGaneung], ["녹양동", L.hoeryongGaneung], ["장암동", L.uijeongbuCentral],
+  ],
   title: "의정부시 출장마사지｜의정부역·민락·금오 안내 - 간다GO",
   description: "의정부시 출장마사지·홈타이. 의정부역 상권과 민락·금오·회룡 생활권 안내.",
   h1: "의정부시 출장마사지 · 의정부역·민락·금오 생활권",
@@ -283,6 +352,12 @@ const uijeongbu = cityPage({
 const yangju = cityPage({
   path: "/gyeonggi-north/yangju-si/", crumb: "양주시", parent: AREA.uj,
   eyebrow: "도시·군 안내 · 양주시",
+  subAreasTitle: "양주 생활권 바로가기",
+  subAreas: [["양주 옥정", L.okjeong], ["덕정·회천", L.deokjeongHoecheon]],
+  dongs: [
+    ["옥정동", L.okjeong], ["고읍동", L.okjeong], ["덕정동", L.deokjeongHoecheon], ["회천동", L.deokjeongHoecheon],
+    ["백석읍", L.deokjeongHoecheon], ["광적면", L.okjeong], ["장흥면", L.deokjeongHoecheon],
+  ],
   title: "양주시 출장마사지｜옥정·회천·덕정 신도시 안내 - 간다GO",
   description: "양주시 출장마사지·홈타이. 옥정·회천 신도시와 덕정·외곽 차량 이동 안내.",
   h1: "양주시 출장마사지 · 옥정·회천·덕정 신도시 안내",
@@ -377,6 +452,9 @@ const guri = cityPage({
 const pocheon = cityPage({
   path: "/gyeonggi-north/pocheon-si/", crumb: "포천시", parent: AREA.outer,
   eyebrow: "도시·군 안내 · 포천시",
+  subAreasTitle: "포천 생활권 바로가기",
+  subAreas: [["포천 송우리·소흘", L.songuriSoheul]],
+  dongs: [["소흘읍", L.songuriSoheul], ["송우리", L.songuriSoheul], ["선단동", L.songuriSoheul], ["포천동", L.songuriSoheul]],
   title: "포천시 출장마사지｜송우리·소흘·외곽 숙소 안내 - 간다GO",
   description: "포천시 출장마사지·홈타이. 송우리·소흘 도심과 외곽 펜션·숙소 이동 안내.",
   h1: "포천시 출장마사지 · 송우리·소흘·외곽 이동 기준",
@@ -424,6 +502,9 @@ const pocheon = cityPage({
 const dongducheon = cityPage({
   path: "/gyeonggi-north/dongducheon-si/", crumb: "동두천시", parent: AREA.outer,
   eyebrow: "도시·군 안내 · 동두천시",
+  subAreasTitle: "동두천 생활권 바로가기",
+  subAreas: [["동두천 지행·생연", L.jihaengSaengyeon]],
+  dongs: [["지행동", L.jihaengSaengyeon], ["생연동", L.jihaengSaengyeon], ["보산동", L.jihaengSaengyeon], ["중앙동", L.jihaengSaengyeon]],
   title: "동두천시 출장마사지｜지행·생연·보산 생활권 안내 - 간다GO",
   description: "동두천시 출장마사지·홈타이. 1호선 북부 지행·생연·보산 주거 생활권 안내.",
   h1: "동두천시 출장마사지 · 지행·생연·보산 생활권 안내",
@@ -471,6 +552,9 @@ const dongducheon = cityPage({
 const gapyeong = cityPage({
   path: "/gyeonggi-north/gapyeong-gun/", crumb: "가평군", parent: AREA.outer,
   eyebrow: "도시·군 안내 · 가평군",
+  subAreasTitle: "가평 생활권 바로가기",
+  subAreas: [["가평읍·청평", L.gapyeongCheongpyeong]],
+  dongs: [["가평읍", L.gapyeongCheongpyeong], ["청평면", L.gapyeongCheongpyeong], ["설악면", L.gapyeongCheongpyeong], ["조종면", L.gapyeongCheongpyeong]],
   title: "가평군 출장마사지｜가평읍·청평 펜션 숙소 안내 - 간다GO",
   description: "가평군 출장마사지·홈타이. 가평읍·청평 관광 펜션·리조트 숙소 이동 안내.",
   h1: "가평군 출장마사지 · 펜션·리조트 숙소 예약 전 확인",
@@ -518,6 +602,9 @@ const gapyeong = cityPage({
 const yeoncheon = cityPage({
   path: "/gyeonggi-north/yeoncheon-gun/", crumb: "연천군", parent: AREA.outer,
   eyebrow: "도시·군 안내 · 연천군",
+  subAreasTitle: "연천 생활권 바로가기",
+  subAreas: [["연천 전곡", L.jeongok]],
+  dongs: [["전곡읍", L.jeongok], ["연천읍", L.jeongok], ["청산면", L.jeongok], ["백학면", L.jeongok]],
   title: "연천군 출장마사지｜전곡·연천읍 접경 외곽 안내 - 간다GO",
   description: "연천군 출장마사지·홈타이. 전곡·연천읍 접경 외곽 장거리 이동 기준 안내.",
   h1: "연천군 출장마사지 · 전곡·연천읍 접경 외곽 이동 기준",
