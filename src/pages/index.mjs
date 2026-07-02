@@ -11,16 +11,16 @@ const areaCards = [
 ];
 
 const cityCards = [
-  ["고양시", "/gyeonggi-north/area/goyang-ilsan/"],
-  ["남양주시", "/gyeonggi-north/area/namyangju-guri/"],
-  ["파주시", "/gyeonggi-north/area/paju-unjeong/"],
-  ["의정부시", "/gyeonggi-north/area/uijeongbu-yangju/"],
-  ["양주시", "/gyeonggi-north/area/uijeongbu-yangju/"],
-  ["구리시", "/gyeonggi-north/area/namyangju-guri/"],
-  ["포천시", "/gyeonggi-north/area/pocheon-dongducheon-gapyeong-yeoncheon/"],
-  ["동두천시", "/gyeonggi-north/area/pocheon-dongducheon-gapyeong-yeoncheon/"],
-  ["가평군", "/gyeonggi-north/area/pocheon-dongducheon-gapyeong-yeoncheon/"],
-  ["연천군", "/gyeonggi-north/area/pocheon-dongducheon-gapyeong-yeoncheon/"],
+  ["고양시", "/gyeonggi-north/goyang-si/"],
+  ["남양주시", "/gyeonggi-north/namyangju-si/"],
+  ["파주시", "/gyeonggi-north/paju-si/"],
+  ["의정부시", "/gyeonggi-north/uijeongbu-si/"],
+  ["양주시", "/gyeonggi-north/yangju-si/"],
+  ["구리시", "/gyeonggi-north/guri-si/"],
+  ["포천시", "/gyeonggi-north/pocheon-si/"],
+  ["동두천시", "/gyeonggi-north/dongducheon-si/"],
+  ["가평군", "/gyeonggi-north/gapyeong-gun/"],
+  ["연천군", "/gyeonggi-north/yeoncheon-gun/"],
 ];
 
 const newtowns = ["일산신도시", "운정신도시", "다산신도시", "별내신도시", "양주 옥정신도시", "의정부 민락", "고양 삼송", "고양 지축", "구리 갈매"];

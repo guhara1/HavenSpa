@@ -106,8 +106,8 @@ const goyang = areaPage({
     { t: "지축·향동", d: "은평 접경 신도시 생활권" },
   ],
   related: [
-    ["남양주·구리권", "/gyeonggi-north/area/namyangju-guri/"],
-    ["파주·운정권", "/gyeonggi-north/area/paju-unjeong/"],
+    ["고양시 상세", "/gyeonggi-north/goyang-si/"],
+    ["파주시 상세", "/gyeonggi-north/paju-si/"],
     ["요금 안내", "/gyeonggi-north/pricing/"],
     ["예약 전 확인", "/gyeonggi-north/check/"],
   ],
@@ -157,8 +157,8 @@ const namyangju = areaPage({
     { t: "구리역·인창", d: "서울 접경 소형 도시 중심" },
   ],
   related: [
-    ["고양·일산권", "/gyeonggi-north/area/goyang-ilsan/"],
-    ["의정부·양주권", "/gyeonggi-north/area/uijeongbu-yangju/"],
+    ["남양주시 상세", "/gyeonggi-north/namyangju-si/"],
+    ["구리시 상세", "/gyeonggi-north/guri-si/"],
     ["외곽 이동 기준", "/gyeonggi-north/check/"],
     ["요금 안내", "/gyeonggi-north/pricing/"],
   ],
@@ -208,8 +208,8 @@ const uijeongbu = areaPage({
     { t: "덕정·회천", d: "확장 주거지·차량 이동권" },
   ],
   related: [
-    ["남양주·구리권", "/gyeonggi-north/area/namyangju-guri/"],
-    ["파주·운정권", "/gyeonggi-north/area/paju-unjeong/"],
+    ["의정부시 상세", "/gyeonggi-north/uijeongbu-si/"],
+    ["양주시 상세", "/gyeonggi-north/yangju-si/"],
     ["예약 전 확인", "/gyeonggi-north/check/"],
     ["요금 안내", "/gyeonggi-north/pricing/"],
   ],
@@ -259,8 +259,8 @@ const paju = areaPage({
     { t: "탄현·헤이리", d: "관광·출판단지 인접권" },
   ],
   related: [
-    ["고양·일산권", "/gyeonggi-north/area/goyang-ilsan/"],
-    ["외곽·관광권", "/gyeonggi-north/area/pocheon-dongducheon-gapyeong-yeoncheon/"],
+    ["파주시 상세", "/gyeonggi-north/paju-si/"],
+    ["고양시 상세", "/gyeonggi-north/goyang-si/"],
     ["예약 전 확인", "/gyeonggi-north/check/"],
     ["요금 안내", "/gyeonggi-north/pricing/"],
   ],
@@ -310,10 +310,10 @@ const outer = areaPage({
     { t: "연천 전곡", d: "접경 외곽 도심 생활권" },
   ],
   related: [
-    ["파주·운정권", "/gyeonggi-north/area/paju-unjeong/"],
-    ["의정부·양주권", "/gyeonggi-north/area/uijeongbu-yangju/"],
-    ["예약 전 확인", "/gyeonggi-north/check/"],
-    ["요금 안내", "/gyeonggi-north/pricing/"],
+    ["포천시 상세", "/gyeonggi-north/pocheon-si/"],
+    ["동두천시 상세", "/gyeonggi-north/dongducheon-si/"],
+    ["가평군 상세", "/gyeonggi-north/gapyeong-gun/"],
+    ["연천군 상세", "/gyeonggi-north/yeoncheon-gun/"],
   ],
   faqs: [
     { q: "가평이나 포천 펜션도 가능한가요?", a: "펜션·독채 숙소는 정확한 주소, 주차 가능 여부, 야간 출입 가능 여부, 외곽 이동 기준을 먼저 확인해야 합니다." },
