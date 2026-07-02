@@ -47,6 +47,7 @@ export const FOOTER_LINKS = {
     title: "이용 정보",
     items: [
       { label: "요금 안내", href: "/gyeonggi-north/pricing/" },
+      { label: "이용 후기", href: "/gyeonggi-north/reviews/" },
       { label: "예약 전 확인", href: "/gyeonggi-north/check/" },
       { label: "운영 기준", href: "/gyeonggi-north/operation/" },
       { label: "개인정보 처리방침", href: "/gyeonggi-north/check/privacy/" },

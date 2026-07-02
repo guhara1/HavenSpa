@@ -1,5 +1,6 @@
 // 경기북부 메인 (/)
 import { pricingBlock, faqBlock, whwBlock } from "../render.mjs";
+import { REVIEWS } from "./reviews.mjs";
 
 const areaCards = [
   { t: "고양·일산권", d: "일산·마두·백석·화정·삼송·지축. 오피스텔·호텔·상권 중심 도시형 생활권입니다.", h: "/gyeonggi-north/area/goyang-ilsan/" },
@@ -104,6 +105,21 @@ const body = `
   </section>
 
   ${pricingBlock()}
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="sec-head center"><h2>이용 후기</h2><p>실제 이용 고객이 남겨 주신 후기를 있는 그대로 전합니다.</p></div>
+      <div class="grid grid--3">
+        ${REVIEWS.slice(0, 3).map((r) => `
+        <figure class="card review-card">
+          <figcaption class="review-card__head"><span class="review-card__name">${r.name}</span><span class="review-card__date">${r.date}</span></figcaption>
+          <div class="review-card__stars" aria-label="별점 ${r.rating}점 / 5점">${"★★★★★☆☆☆☆☆".slice(5 - r.rating, 10 - r.rating)}</div>
+          <blockquote>${r.text}</blockquote>
+        </figure>`).join("")}
+      </div>
+      <p class="center" style="margin-top:24px"><a class="btn btn--ghost" href="/gyeonggi-north/reviews/">이용 후기 전체 보기</a></p>
+    </div>
+  </section>
 
   <section class="section section--tight">
     <div class="wrap">

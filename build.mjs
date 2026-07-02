@@ -10,9 +10,10 @@ import { SITE } from "./src/config.mjs";
 import indexPage from "./src/pages/index.mjs";
 import areaPages from "./src/pages/areas.mjs";
 import infoPages from "./src/pages/info.mjs";
+import reviewsPage from "./src/pages/reviews.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
-const pages = [indexPage, ...areaPages, ...infoPages];
+const pages = [indexPage, ...areaPages, ...infoPages, reviewsPage];
 
 function outPath(routePath) {
   if (routePath === "/") return join(ROOT, "index.html");
