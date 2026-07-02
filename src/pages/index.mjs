@@ -23,6 +23,34 @@ const cityCards = [
   ["연천군", "/gyeonggi-north/yeoncheon-gun/"],
 ];
 
+const lifeZones = [
+  ["일산 호수공원·정발산", "/gyeonggi-north/life/ilsan-lake-park/"],
+  ["마두·백석", "/gyeonggi-north/life/madu-baekseok/"],
+  ["주엽·대화", "/gyeonggi-north/life/juyeop-daehwa/"],
+  ["화정·행신", "/gyeonggi-north/life/hwajeong-haengsin/"],
+  ["삼송·원흥", "/gyeonggi-north/life/samsong-wonheung/"],
+  ["지축·향동", "/gyeonggi-north/life/jichuk-hyangdong/"],
+  ["다산·도농", "/gyeonggi-north/life/dasan-donong/"],
+  ["별내·갈매", "/gyeonggi-north/life/byeollae-galmae/"],
+  ["평내호평", "/gyeonggi-north/life/pyeongnae-hopyeong/"],
+  ["진접·오남", "/gyeonggi-north/life/jinjeop-onam/"],
+  ["화도·마석", "/gyeonggi-north/life/hwado-maseok/"],
+  ["의정부역·중앙로", "/gyeonggi-north/life/uijeongbu-station-central/"],
+  ["민락·고산", "/gyeonggi-north/life/minrak-gosan/"],
+  ["금오·신곡", "/gyeonggi-north/life/geumo-singok/"],
+  ["회룡·가능", "/gyeonggi-north/life/hoeryong-ganeung/"],
+  ["양주 옥정", "/gyeonggi-north/life/okjeong/"],
+  ["덕정·회천", "/gyeonggi-north/life/deokjeong-hoecheon/"],
+  ["운정신도시", "/gyeonggi-north/life/unjeong-newtown/"],
+  ["야당·와동", "/gyeonggi-north/life/yadang-wadong/"],
+  ["금촌·파주시청", "/gyeonggi-north/life/geumchon-paju-cityhall/"],
+  ["문산·파주북부", "/gyeonggi-north/life/munsan-north-paju/"],
+  ["포천 송우리·소흘", "/gyeonggi-north/life/songuri-soheul/"],
+  ["동두천 지행·생연", "/gyeonggi-north/life/jihaeng-saengyeon/"],
+  ["가평읍·청평", "/gyeonggi-north/life/gapyeong-cheongpyeong/"],
+  ["연천 전곡", "/gyeonggi-north/life/jeongok-yeoncheon/"],
+];
+
 const newtowns = ["일산신도시", "운정신도시", "다산신도시", "별내신도시", "양주 옥정신도시", "의정부 민락", "고양 삼송", "고양 지축", "구리 갈매"];
 const tours = ["가평 펜션 숙소", "청평 리조트", "포천 외곽 숙소", "파주 헤이리·탄현", "연천 접경 지역", "북부 독채 숙소"];
 
@@ -88,6 +116,13 @@ const body = `
     <div class="wrap">
       <div class="sec-head center"><h2>경기북부 핵심 도시 안내</h2></div>
       <div class="grid grid--4">${cityCards.map(([t, h]) => miniCard(t, h)).join("")}</div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="sec-head center"><h2>핵심 생활권 바로가기</h2><p>동 단위 생활권별로 방문 가능 지역과 이용 기준을 확인하세요.</p></div>
+      <div class="chiprow" style="justify-content:center">${lifeZones.map(([t, h]) => `<a class="chip" href="${h}">${t}</a>`).join("")}</div>
     </div>
   </section>
 
