@@ -24,16 +24,10 @@ function outPath(routePath) {
   return join(ROOT, routePath.replace(/^\//, "").replace(/\/$/, ""), "index.html");
 }
 
-// 스팸/thin-content 안전망: 본문 2,000자 미만 페이지는 자동 noindex,follow
-// (지시서 19항 "2,000자 미만이면 임시 noindex". 홈은 예외, page.index=true로 강제 색인 가능)
-const INDEX_MIN = 2000;
+// 모든 페이지 색인(사용자 요청). page.noindex를 명시한 경우에만 noindex.
+// 참고: 얇은 페이지는 noindex 대신 본문을 보강해 색인 가치를 확보한다.
 function visibleLen(body = "") {
   return [...body.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()].length;
-}
-for (const page of pages) {
-  if (page.path !== "/" && page.index !== true && !page.noindex) {
-    if (visibleLen(page.body) < INDEX_MIN) page.noindex = true;
-  }
 }
 
 let count = 0, indexed = 0, noindexed = 0;

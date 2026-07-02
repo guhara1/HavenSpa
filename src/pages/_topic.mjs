@@ -29,7 +29,7 @@ export function topicPage(cfg) {
   </section>
 
   <section class="section section--tight">
-    <div class="wrap prose" style="max-width:80ch">${cfg.article}</div>
+    <div class="wrap prose" style="max-width:80ch">${cfg.article}${cfg.extra || ""}</div>
   </section>
 
   ${checklistHtml}
