@@ -1,0 +1,73 @@
+/* ==========================================================================
+   간다GO · Design Tokens (Premium Palette)
+   Pretendard 기반. 프리미엄 다크 팔레트로 토큰 자체를 교체.
+   ========================================================================== */
+
+:root {
+  /* ---- Brand / Accent (Orange) ---------------------------------------- */
+  --brand-50:  #fff4ea;
+  --brand-100: #ffe1c4;
+  --brand-200: #ffc590;
+  --brand-300: #ffa758;
+  --brand-400: #ff8c2e;
+  --brand-500: #ff7a1a;   /* primary */
+  --brand-600: #ef6a08;
+  --brand-700: #c9550a;
+  --brand-800: #9c4410;
+  --brand-900: #7a3810;
+  --brand-grad: linear-gradient(135deg, #ff9838 0%, #ff7a1a 45%, #f2620a 100%);
+  --brand-glow: 0 8px 28px -8px rgba(255, 122, 26, .55);
+
+  /* ---- Neutral / Ink (deep premium navy) ------------------------------ */
+  --ink-950: #070a11;   /* page base */
+  --ink-900: #0b0f17;
+  --ink-850: #10161f;
+  --ink-800: #141b27;   /* surface */
+  --ink-750: #1a2330;
+  --ink-700: #212c3c;   /* raised card */
+  --ink-600: #33415a;
+  --ink-500: #465774;
+
+  /* ---- Text ----------------------------------------------------------- */
+  --text-strong: #f6f8fb;
+  --text:        #dfe6ef;
+  --text-muted:  #9aa7b8;
+  --text-faint:  #6b7789;
+
+  /* ---- Lines / Borders ------------------------------------------------ */
+  --line:       rgba(255, 255, 255, .08);
+  --line-soft:  rgba(255, 255, 255, .05);
+  --line-strong:rgba(255, 255, 255, .14);
+
+  /* ---- Feedback ------------------------------------------------------- */
+  --ok:   #35c26b;
+  --warn: #ffb020;
+  --info: #4aa8ff;
+
+  /* ---- Radius --------------------------------------------------------- */
+  --r-xs: 8px;
+  --r-sm: 12px;
+  --r-md: 16px;
+  --r-lg: 22px;
+  --r-xl: 28px;
+  --r-pill: 999px;
+
+  /* ---- Elevation ------------------------------------------------------ */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.4);
+  --shadow-md: 0 10px 30px -12px rgba(0,0,0,.6);
+  --shadow-lg: 0 30px 60px -20px rgba(0,0,0,.65);
+
+  /* ---- Layout --------------------------------------------------------- */
+  --wrap: 1180px;
+  --gutter: clamp(16px, 4vw, 40px);
+
+  /* ---- Type ----------------------------------------------------------- */
+  --font-sans: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", Roboto, sans-serif;
+  --fs-hero: clamp(2rem, 4.6vw, 3.25rem);
+  --fs-h2:   clamp(1.5rem, 3vw, 2.1rem);
+  --fs-h3:   clamp(1.15rem, 2vw, 1.35rem);
+  --fs-body: 1.0625rem;
+  --fs-sm:   0.9375rem;
+  --lh-body: 1.75;
+}

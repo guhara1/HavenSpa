@@ -1,0 +1,11 @@
+{
+  "name": "gandago-gyeonggi-north",
+  "version": "1.0.0",
+  "private": true,
+  "description": "간다GO 경기북부 출장마사지·홈타이 지역 안내 (정적 SEO 사이트)",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node --watch build.mjs & npx --yes serve ."
+  }
+}
