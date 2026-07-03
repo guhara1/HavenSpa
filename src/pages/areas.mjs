@@ -41,6 +41,20 @@ function areaPage(cfg) {
     </div>
   </section>
 
+  ${cfg.subAreas ? `<section class="section section--tight">
+    <div class="wrap">
+      <div class="sec-head center"><h2>도시·구 바로가기</h2><p>도시·행정구를 선택하면 상세 안내 페이지로 이동합니다.</p></div>
+      <div class="grid grid--3">${cfg.subAreas.map(([t, h]) => `<a class="card card--link" href="${h}"><h3 style="font-size:1.05rem">${t}</h3></a>`).join("")}</div>
+    </div>
+  </section>` : ""}
+
+  ${cfg.dongs ? `<section class="section section--tight">
+    <div class="wrap">
+      <div class="sec-head center"><h2>행정동·읍면 바로가기</h2><p>동·읍·면 이름을 누르면 해당 개별 안내 페이지로 이동합니다.</p></div>
+      <div class="chiprow" style="justify-content:center;max-width:940px;margin-inline:auto">${cfg.dongs.map(([t, h]) => `<a class="chip" href="${h}">${t}</a>`).join("")}</div>
+    </div>
+  </section>` : ""}
+
   ${pricingBlock()}
 
   <section class="section section--tight">
@@ -77,6 +91,16 @@ const goyang = areaPage({
   path: "/gyeonggi-north/area/goyang-ilsan/",
   crumb: "고양·일산권",
   eyebrow: "경기북부 · 고양·일산권",
+  subAreas: [
+    ["고양시", "/gyeonggi-north/goyang-si/"], ["일산동구", "/gyeonggi-north/goyang-si/ilsandong-gu/"],
+    ["일산서구", "/gyeonggi-north/goyang-si/ilsanseo-gu/"], ["덕양구", "/gyeonggi-north/goyang-si/deogyang-gu/"],
+  ],
+  dongs: [
+    ["마두동", "/gyeonggi-north/goyang-si/madu-dong/"], ["백석동", "/gyeonggi-north/goyang-si/baekseok-dong/"], ["장항동", "/gyeonggi-north/goyang-si/janghang-dong/"], ["정발산동", "/gyeonggi-north/goyang-si/jeongbalsan-dong/"],
+    ["주엽동", "/gyeonggi-north/goyang-si/juyeop-dong/"], ["대화동", "/gyeonggi-north/goyang-si/daehwa-dong/"], ["탄현동", "/gyeonggi-north/goyang-si/tanhyeon-dong/"],
+    ["화정동", "/gyeonggi-north/goyang-si/hwajeong-dong/"], ["행신동", "/gyeonggi-north/goyang-si/haengsin-dong/"], ["삼송동", "/gyeonggi-north/goyang-si/samsong-dong/"], ["원흥동", "/gyeonggi-north/goyang-si/wonheung-dong/"],
+    ["지축동", "/gyeonggi-north/goyang-si/jichuk-dong/"], ["향동동", "/gyeonggi-north/goyang-si/hyangdong-dong/"],
+  ],
   title: "고양 출장마사지｜일산·화정·삼송 생활권 안내 - 간다GO",
   description: "고양·일산 출장마사지·홈타이. 일산·마두·화정·삼송 생활권과 오피스텔 이용 안내.",
   h1: "고양 출장마사지 · 일산·화정·삼송 생활권 안내",
@@ -128,6 +152,12 @@ const namyangju = areaPage({
   path: "/gyeonggi-north/area/namyangju-guri/",
   crumb: "남양주·구리권",
   eyebrow: "경기북부 · 남양주·구리권",
+  subAreas: [["남양주시", "/gyeonggi-north/namyangju-si/"], ["구리시", "/gyeonggi-north/guri-si/"]],
+  dongs: [
+    ["다산동", "/gyeonggi-north/namyangju-si/dasan-dong/"], ["별내동", "/gyeonggi-north/namyangju-si/byeollae-dong/"], ["도농동", "/gyeonggi-north/namyangju-si/donong-dong/"], ["평내동", "/gyeonggi-north/namyangju-si/pyeongnae-dong/"], ["호평동", "/gyeonggi-north/namyangju-si/hopyeong-dong/"],
+    ["진접읍", "/gyeonggi-north/namyangju-si/jinjeop-eup/"], ["오남읍", "/gyeonggi-north/namyangju-si/onam-eup/"], ["화도읍", "/gyeonggi-north/namyangju-si/hwado-eup/"], ["와부읍", "/gyeonggi-north/namyangju-si/wabu-eup/"], ["퇴계원읍", "/gyeonggi-north/namyangju-si/toegyewon-eup/"],
+    ["인창동", "/gyeonggi-north/guri-si/inchang-dong/"], ["수택동", "/gyeonggi-north/guri-si/sutaek-dong/"], ["교문동", "/gyeonggi-north/guri-si/gyomun-dong/"], ["갈매동", "/gyeonggi-north/guri-si/galmae-dong/"],
+  ],
   title: "남양주 출장마사지｜다산·별내·평내호평 이용 기준 - 간다GO",
   description: "남양주·구리 출장마사지·홈타이. 다산·별내·화도·마석 신도시와 외곽 이동 안내.",
   h1: "남양주 출장마사지 · 다산·별내·평내호평 이용 기준",
@@ -181,6 +211,13 @@ const uijeongbu = areaPage({
   path: "/gyeonggi-north/area/uijeongbu-yangju/",
   crumb: "의정부·양주권",
   eyebrow: "경기북부 · 의정부·양주권",
+  subAreas: [["의정부시", "/gyeonggi-north/uijeongbu-si/"], ["양주시", "/gyeonggi-north/yangju-si/"]],
+  dongs: [
+    ["의정부동", "/gyeonggi-north/uijeongbu-si/uijeongbu-dong/"], ["민락동", "/gyeonggi-north/uijeongbu-si/minrak-dong/"], ["금오동", "/gyeonggi-north/uijeongbu-si/geumo-dong/"], ["신곡동", "/gyeonggi-north/uijeongbu-si/singok-dong/"],
+    ["가능동", "/gyeonggi-north/uijeongbu-si/ganeung-dong/"], ["호원동", "/gyeonggi-north/uijeongbu-si/howon-dong/"], ["녹양동", "/gyeonggi-north/uijeongbu-si/nogyang-dong/"], ["장암동", "/gyeonggi-north/uijeongbu-si/jangam-dong/"],
+    ["옥정동", "/gyeonggi-north/yangju-si/okjeong-dong/"], ["고읍동", "/gyeonggi-north/yangju-si/goeup-dong/"], ["덕정동", "/gyeonggi-north/yangju-si/deokjeong-dong/"], ["회천동", "/gyeonggi-north/yangju-si/hoecheon-dong/"],
+    ["백석읍", "/gyeonggi-north/yangju-si/baekseok-eup/"], ["광적면", "/gyeonggi-north/yangju-si/gwangjeok-myeon/"], ["장흥면", "/gyeonggi-north/yangju-si/jangheung-myeon/"],
+  ],
   title: "의정부 출장마사지｜의정부역·민락·옥정 안내 - 간다GO",
   description: "의정부·양주 출장마사지·홈타이. 의정부역·민락·금오·옥정·덕정 생활권 안내.",
   h1: "의정부 출장마사지 · 의정부역·민락·금오 예약 전 확인",
@@ -234,6 +271,11 @@ const paju = areaPage({
   path: "/gyeonggi-north/area/paju-unjeong/",
   crumb: "파주·운정권",
   eyebrow: "경기북부 · 파주·운정권",
+  subAreas: [["파주시", "/gyeonggi-north/paju-si/"]],
+  dongs: [
+    ["운정동", "/gyeonggi-north/paju-si/unjeong-dong/"], ["야당동", "/gyeonggi-north/paju-si/yadang-dong/"], ["와동동", "/gyeonggi-north/paju-si/wadong-dong/"], ["동패동", "/gyeonggi-north/paju-si/dongpae-dong/"],
+    ["금촌동", "/gyeonggi-north/paju-si/geumchon-dong/"], ["문산읍", "/gyeonggi-north/paju-si/munsan-eup/"], ["교하동", "/gyeonggi-north/paju-si/gyoha-dong/"], ["탄현면", "/gyeonggi-north/paju-si/tanhyeon-myeon/"], ["조리읍", "/gyeonggi-north/paju-si/jori-eup/"],
+  ],
   title: "파주 출장마사지｜운정·야당·금촌 생활권 안내 - 간다GO",
   description: "파주·운정 출장마사지·홈타이. 운정신도시·야당·문산·탄현 이용 기준 안내.",
   h1: "파주 출장마사지 · 운정·야당·금촌 생활권 안내",
@@ -287,6 +329,16 @@ const outer = areaPage({
   path: "/gyeonggi-north/area/pocheon-dongducheon-gapyeong-yeoncheon/",
   crumb: "포천·동두천·가평·연천권",
   eyebrow: "경기북부 · 외곽·관광권",
+  subAreas: [
+    ["포천시", "/gyeonggi-north/pocheon-si/"], ["동두천시", "/gyeonggi-north/dongducheon-si/"],
+    ["가평군", "/gyeonggi-north/gapyeong-gun/"], ["연천군", "/gyeonggi-north/yeoncheon-gun/"],
+  ],
+  dongs: [
+    ["소흘읍", "/gyeonggi-north/pocheon-si/soheul-eup/"], ["포천동", "/gyeonggi-north/pocheon-si/pocheon-dong/"], ["선단동", "/gyeonggi-north/pocheon-si/seondan-dong/"], ["일동면", "/gyeonggi-north/pocheon-si/ildong-myeon/"],
+    ["지행동", "/gyeonggi-north/dongducheon-si/jihaeng-dong/"], ["생연동", "/gyeonggi-north/dongducheon-si/saengyeon-dong/"], ["보산동", "/gyeonggi-north/dongducheon-si/bosan-dong/"], ["중앙동", "/gyeonggi-north/dongducheon-si/jungang-dong/"],
+    ["가평읍", "/gyeonggi-north/gapyeong-gun/gapyeong-eup/"], ["청평면", "/gyeonggi-north/gapyeong-gun/cheongpyeong-myeon/"], ["설악면", "/gyeonggi-north/gapyeong-gun/seorak-myeon/"], ["조종면", "/gyeonggi-north/gapyeong-gun/jojong-myeon/"],
+    ["전곡읍", "/gyeonggi-north/yeoncheon-gun/jeongok-eup/"], ["연천읍", "/gyeonggi-north/yeoncheon-gun/yeoncheon-eup/"], ["청산면", "/gyeonggi-north/yeoncheon-gun/cheongsan-myeon/"], ["백학면", "/gyeonggi-north/yeoncheon-gun/baekhak-myeon/"],
+  ],
   title: "포천·가평 출장마사지｜펜션·외곽 이동 기준 - 간다GO",
   description: "포천·동두천·가평·연천 출장마사지. 펜션·리조트·접경 외곽 이동 기준 안내.",
   h1: "포천·동두천·가평·연천 외곽·관광권 이용 기준",
