@@ -7,8 +7,7 @@ export const SITE = {
   name: "간다GO",
   legalName: "간다GO",
   tagline: "경기북부 출장마사지 · 홈타이 지역 안내",
-  // TODO(배포): 실제 도메인으로 교체
-  base: "https://gandago.kr",
+  base: "https://haven-spa.netlify.app",
   phone: "0508-202-4719",
   phoneHref: "tel:0508-202-4719",
   // TODO(배포): 실제 텔레그램 핸들로 교체
@@ -18,6 +17,10 @@ export const SITE = {
   },
   ogImage: "/assets/img/hero.webp",
   heroImage: "/assets/img/hero.webp",
+  // 네이버 웹마스터도구 사이트 소유 확인
+  naverVerification: "0b11814a8c152adf36892d9dd4045ee25098539a",
+  // 게시된 이용 후기 20건 기준 집계 (화면 표시값과 일치)
+  rating: { value: "4.2", count: "20", best: "5", worst: "1" },
 };
 
 // 상단 내비게이션 (메뉴명에 "출장마사지" 반복 금지)

@@ -48,20 +48,47 @@ for (const page of pages) {
   console.log("✔", page.path, "→", file.replace(ROOT + "/", ""));
 }
 
-// ---- sitemap.xml ---------------------------------------------------------
-const urls = pages
-  .filter((p) => !p.noindex)
+const indexedPages = pages.filter((p) => !p.noindex);
+const today = new Date().toISOString().slice(0, 10);
+const loc = (p) => SITE.base + (p.path === "/" ? "/" : p.path);
+const priority = (p) => (p.path === "/" ? "1.0" : p.path.split("/").length <= 4 ? "0.8" : "0.6");
+
+// ---- sitemap.xml (이미지 포함) -------------------------------------------
+const urls = indexedPages
   .map((p) => {
-    const loc = SITE.base + (p.path === "/" ? "/" : p.path);
-    return `  <url>\n    <loc>${loc}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>${p.path === "/" ? "1.0" : "0.7"}</priority>\n  </url>`;
+    const img = SITE.base + (p.image || SITE.ogImage);
+    return `  <url>\n    <loc>${loc(p)}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority(p)}</priority>\n    <image:image>\n      <image:loc>${img}</image:loc>\n    </image:image>\n  </url>`;
   })
   .join("\n");
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls}\n</urlset>\n`;
 await writeFile(join(ROOT, "sitemap.xml"), sitemap, "utf8");
 console.log("✔ sitemap.xml");
 
-// ---- robots.txt ----------------------------------------------------------
-const robots = `User-agent: *\nAllow: /\n\nSitemap: ${SITE.base}/sitemap.xml\n`;
+// ---- rss.xml (네이버·구글 빠른 수집용 피드) ------------------------------
+const esc = (s = "") => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const rssItems = indexedPages
+  .slice(0, 200)
+  .map((p) => `    <item>\n      <title>${esc(p.title)}</title>\n      <link>${loc(p)}</link>\n      <guid isPermaLink="true">${loc(p)}</guid>\n      <description>${esc(p.description || "")}</description>\n    </item>`)
+  .join("\n");
+const rss = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n  <channel>\n    <title>${SITE.name} · 경기북부 출장마사지·홈타이 지역 안내</title>\n    <link>${SITE.base}/</link>\n    <atom:link href="${SITE.base}/rss.xml" rel="self" type="application/rss+xml"/>\n    <description>경기북부 생활권·행정동·이용 안내</description>\n    <language>ko-KR</language>\n${rssItems}\n  </channel>\n</rss>\n`;
+await writeFile(join(ROOT, "rss.xml"), rss, "utf8");
+console.log("✔ rss.xml");
+
+// ---- robots.txt (네이버·구글 전면 허용 + 사이트맵/피드) ------------------
+const robots = [
+  "User-agent: *",
+  "Allow: /",
+  "",
+  "User-agent: Yeti",       // 네이버 검색로봇
+  "Allow: /",
+  "",
+  "User-agent: Googlebot",
+  "Allow: /",
+  "",
+  `Sitemap: ${SITE.base}/sitemap.xml`,
+  `Sitemap: ${SITE.base}/rss.xml`,
+  "",
+].join("\n");
 await writeFile(join(ROOT, "robots.txt"), robots, "utf8");
 console.log("✔ robots.txt");
 

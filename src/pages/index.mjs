@@ -1,8 +1,28 @@
 // 경기북부 메인 (/)
 import { pricingBlock, faqBlock, whwBlock, heroMedia } from "../render.mjs";
-import { REVIEWS } from "./reviews.mjs";
+import { REVIEWS, RATING } from "./reviews.mjs";
 import { NEWTOWN_LINKS } from "./newtowns.mjs";
 import { STATION_LINKS } from "./stations.mjs";
+
+// 롱테일 주제 내부링크 (주제 + 지역/상황 앵커로 깊은 페이지 연결)
+const longtail = [
+  ["오피스텔 출장마사지 이용 안내", "/gyeonggi-north/use/officetel/"],
+  ["아파트 단지 방문 마사지 기준", "/gyeonggi-north/use/apartment/"],
+  ["호텔·숙소 출장마사지 안내", "/gyeonggi-north/use/hotel/"],
+  ["펜션·독채 숙소 홈타이", "/gyeonggi-north/use/pension-private-stay/"],
+  ["야간 출장마사지 예약", "/gyeonggi-north/use/night/"],
+  ["신도시 아파트 방문 마사지", "/gyeonggi-north/use/newtown/"],
+  ["일산 호수공원·정발산 생활권", "/gyeonggi-north/life/ilsan-lake-park/"],
+  ["운정신도시 이용 안내", "/gyeonggi-north/newtown/unjeong/"],
+  ["다산신도시 방문 마사지", "/gyeonggi-north/newtown/dasan/"],
+  ["별내신도시 이용 안내", "/gyeonggi-north/newtown/byeollae/"],
+  ["가평 펜션 출장마사지", "/gyeonggi-north/use/gapyeong-pension/"],
+  ["청평·설악 리조트 이용", "/gyeonggi-north/use/cheongpyeong-resort/"],
+  ["의정부역 인근 이용 안내", "/gyeonggi-north/station/uijeongbu-station/"],
+  ["구리역 인근 이용 안내", "/gyeonggi-north/station/guri-station/"],
+  ["예약 가능 시간 확인", "/gyeonggi-north/check/time/"],
+  ["외곽 이동 기준 안내", "/gyeonggi-north/check/travel-fee/"],
+];
 
 const areaCards = [
   { t: "고양·일산권", d: "일산·마두·백석·화정·삼송·지축. 오피스텔·호텔·상권 중심 도시형 생활권입니다.", h: "/gyeonggi-north/area/goyang-ilsan/" },
@@ -160,6 +180,13 @@ const body = `
   <section class="section section--tight">
     <div class="wrap">
       <div class="sec-head center"><h2>이용 후기</h2><p>실제 이용 고객이 남겨 주신 후기를 있는 그대로 전합니다.</p></div>
+      <div class="center" style="margin-bottom:26px">
+        <div class="rating-summary" aria-label="평균 별점 ${RATING.value}점 / 5점, 후기 ${RATING.count}건">
+          <span class="rating-summary__score">${RATING.value}</span>
+          <span class="rating-summary__stars">${"★★★★★☆☆☆☆☆".slice(5 - Math.round(Number(RATING.value)), 10 - Math.round(Number(RATING.value)))}</span>
+          <span class="rating-summary__count">/ 5.0 · 후기 ${RATING.count}건</span>
+        </div>
+      </div>
       <div class="grid grid--3">
         ${REVIEWS.slice(0, 3).map((r) => `
         <figure class="card review-card">
@@ -179,6 +206,13 @@ const body = `
         ${checklist.map((c) => `<li>${c}</li>`).join("")}
       </ul>
       <p class="center" style="margin-top:24px"><a class="btn btn--ghost" href="/gyeonggi-north/check/">예약 전 확인 자세히 보기</a></p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="sec-head center"><h2>자주 찾는 이용 주제</h2><p>이용 장소·상황·지역별 안내를 주제별로 바로 확인하세요.</p></div>
+      <div class="chiprow" style="justify-content:center">${longtail.map(([t, h]) => `<a class="chip" href="${h}">${t}</a>`).join("")}</div>
     </div>
   </section>
 

@@ -1,983 +1,1767 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://gandago.kr/</loc>
+    <loc>https://haven-spa.netlify.app/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/area/goyang-ilsan/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/area/goyang-ilsan/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/area/namyangju-guri/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/area/namyangju-guri/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/area/uijeongbu-yangju/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/area/uijeongbu-yangju/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/area/paju-unjeong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/area/paju-unjeong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/area/pocheon-dongducheon-gapyeong-yeoncheon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/area/pocheon-dongducheon-gapyeong-yeoncheon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/namyangju-si/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/namyangju-si/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/paju-si/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/paju-si/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/uijeongbu-si/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/uijeongbu-si/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yangju-si/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yangju-si/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/guri-si/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/guri-si/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/pocheon-si/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/pocheon-si/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/dongducheon-si/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/dongducheon-si/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/gapyeong-gun/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/gapyeong-gun/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yeoncheon-gun/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yeoncheon-gun/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/ilsandong-gu/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/ilsandong-gu/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/ilsanseo-gu/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/ilsanseo-gu/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/deogyang-gu/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/deogyang-gu/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/ilsan-lake-park/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/ilsan-lake-park/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/madu-baekseok/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/madu-baekseok/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/juyeop-daehwa/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/juyeop-daehwa/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/hwajeong-haengsin/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/hwajeong-haengsin/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/samsong-wonheung/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/samsong-wonheung/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/jichuk-hyangdong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/jichuk-hyangdong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/dasan-donong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/dasan-donong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/byeollae-galmae/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/byeollae-galmae/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/pyeongnae-hopyeong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/pyeongnae-hopyeong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/jinjeop-onam/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/jinjeop-onam/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/hwado-maseok/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/hwado-maseok/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/uijeongbu-station-central/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/uijeongbu-station-central/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/minrak-gosan/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/minrak-gosan/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/geumo-singok/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/geumo-singok/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/hoeryong-ganeung/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/hoeryong-ganeung/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/okjeong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/okjeong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/deokjeong-hoecheon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/deokjeong-hoecheon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/unjeong-newtown/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/unjeong-newtown/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/yadang-wadong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/yadang-wadong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/geumchon-paju-cityhall/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/geumchon-paju-cityhall/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/munsan-north-paju/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/munsan-north-paju/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/songuri-soheul/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/songuri-soheul/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/jihaeng-saengyeon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/jihaeng-saengyeon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/gapyeong-cheongpyeong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/gapyeong-cheongpyeong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/life/jeongok-yeoncheon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/life/jeongok-yeoncheon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/madu-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/madu-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/baekseok-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/baekseok-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/janghang-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/janghang-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/jeongbalsan-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/jeongbalsan-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/juyeop-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/juyeop-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/daehwa-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/daehwa-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/tanhyeon-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/tanhyeon-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/hwajeong-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/hwajeong-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/haengsin-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/haengsin-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/samsong-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/samsong-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/wonheung-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/wonheung-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/jichuk-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/jichuk-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/goyang-si/hyangdong-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/goyang-si/hyangdong-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/namyangju-si/dasan-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/namyangju-si/dasan-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/namyangju-si/byeollae-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/namyangju-si/byeollae-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/namyangju-si/donong-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/namyangju-si/donong-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/namyangju-si/pyeongnae-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/namyangju-si/pyeongnae-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/namyangju-si/hopyeong-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/namyangju-si/hopyeong-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/namyangju-si/jinjeop-eup/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/namyangju-si/jinjeop-eup/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/namyangju-si/onam-eup/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/namyangju-si/onam-eup/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/namyangju-si/hwado-eup/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/namyangju-si/hwado-eup/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/namyangju-si/wabu-eup/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/namyangju-si/wabu-eup/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/namyangju-si/toegyewon-eup/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/namyangju-si/toegyewon-eup/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/paju-si/unjeong-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/paju-si/unjeong-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/paju-si/yadang-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/paju-si/yadang-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/paju-si/wadong-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/paju-si/wadong-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/paju-si/dongpae-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/paju-si/dongpae-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/paju-si/geumchon-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/paju-si/geumchon-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/paju-si/munsan-eup/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/paju-si/munsan-eup/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/paju-si/gyoha-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/paju-si/gyoha-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/paju-si/tanhyeon-myeon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/paju-si/tanhyeon-myeon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/paju-si/jori-eup/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/paju-si/jori-eup/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/uijeongbu-si/uijeongbu-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/uijeongbu-si/uijeongbu-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/uijeongbu-si/minrak-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/uijeongbu-si/minrak-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/uijeongbu-si/geumo-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/uijeongbu-si/geumo-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/uijeongbu-si/singok-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/uijeongbu-si/singok-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/uijeongbu-si/ganeung-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/uijeongbu-si/ganeung-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/uijeongbu-si/howon-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/uijeongbu-si/howon-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/uijeongbu-si/nogyang-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/uijeongbu-si/nogyang-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/uijeongbu-si/jangam-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/uijeongbu-si/jangam-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yangju-si/okjeong-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yangju-si/okjeong-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yangju-si/goeup-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yangju-si/goeup-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yangju-si/deokjeong-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yangju-si/deokjeong-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yangju-si/hoecheon-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yangju-si/hoecheon-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yangju-si/baekseok-eup/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yangju-si/baekseok-eup/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yangju-si/gwangjeok-myeon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yangju-si/gwangjeok-myeon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yangju-si/jangheung-myeon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yangju-si/jangheung-myeon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/guri-si/inchang-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/guri-si/inchang-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/guri-si/sutaek-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/guri-si/sutaek-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/guri-si/gyomun-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/guri-si/gyomun-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/guri-si/galmae-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/guri-si/galmae-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/pocheon-si/soheul-eup/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/pocheon-si/soheul-eup/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/pocheon-si/pocheon-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/pocheon-si/pocheon-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/pocheon-si/seondan-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/pocheon-si/seondan-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/pocheon-si/ildong-myeon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/pocheon-si/ildong-myeon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/dongducheon-si/jihaeng-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/dongducheon-si/jihaeng-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/dongducheon-si/saengyeon-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/dongducheon-si/saengyeon-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/dongducheon-si/bosan-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/dongducheon-si/bosan-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/dongducheon-si/jungang-dong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/dongducheon-si/jungang-dong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/gapyeong-gun/gapyeong-eup/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/gapyeong-gun/gapyeong-eup/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/gapyeong-gun/cheongpyeong-myeon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/gapyeong-gun/cheongpyeong-myeon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/gapyeong-gun/seorak-myeon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/gapyeong-gun/seorak-myeon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/gapyeong-gun/jojong-myeon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/gapyeong-gun/jojong-myeon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yeoncheon-gun/jeongok-eup/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yeoncheon-gun/jeongok-eup/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yeoncheon-gun/yeoncheon-eup/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yeoncheon-gun/yeoncheon-eup/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yeoncheon-gun/cheongsan-myeon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yeoncheon-gun/cheongsan-myeon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/yeoncheon-gun/baekhak-myeon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/yeoncheon-gun/baekhak-myeon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/gapyeong-pension/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/gapyeong-pension/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/cheongpyeong-resort/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/cheongpyeong-resort/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/pocheon-outer-accommodation/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/pocheon-outer-accommodation/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/heyri-tanhyeon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/heyri-tanhyeon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/yeoncheon-border-area/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/yeoncheon-border-area/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/ilsan/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/ilsan/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/unjeong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/unjeong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/dasan/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/dasan/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/byeollae/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/byeollae/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/okjeong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/okjeong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/minrak/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/minrak/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/samsong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/samsong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/wonheung/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/wonheung/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/jichuk/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/jichuk/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/hyangdong/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/hyangdong/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/galmae/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/galmae/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/wangsuk/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/wangsuk/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/gyoha/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/gyoha/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/newtown/hoecheon/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/newtown/hoecheon/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/daehwa-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/daehwa-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/juyeop-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/juyeop-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/jeongbalsan-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/jeongbalsan-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/madu-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/madu-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/baekseok-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/baekseok-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/hwajeong-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/hwajeong-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/haengsin-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/haengsin-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/samsong-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/samsong-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/wonheung-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/wonheung-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/jichuk-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/jichuk-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/goyang-terminal/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/goyang-terminal/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/guri-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/guri-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/donong-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/donong-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/byeollae-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/byeollae-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/toegyewon-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/toegyewon-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/pyeongnaehopyeong-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/pyeongnaehopyeong-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/maseok-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/maseok-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/uijeongbu-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/uijeongbu-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/hoeryong-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/hoeryong-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/ganeung-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/ganeung-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/yangju-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/yangju-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/deokjeong-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/deokjeong-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/uijeongbu-terminal/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/uijeongbu-terminal/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/unjeong-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/unjeong-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/yadang-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/yadang-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/geumchon-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/geumchon-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/munsan-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/munsan-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/munsan-terminal/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/munsan-terminal/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/jihaeng-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/jihaeng-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/dongducheon-jungang-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/dongducheon-jungang-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/soyosan-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/soyosan-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/dongducheon-terminal/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/dongducheon-terminal/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/gapyeong-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/gapyeong-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/cheongpyeong-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/cheongpyeong-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/jeongok-station/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/jeongok-station/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/pocheon-terminal/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/pocheon-terminal/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/gapyeong-terminal/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/gapyeong-terminal/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/cheongpyeong-terminal/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/cheongpyeong-terminal/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/station/jeongok-terminal/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/station/jeongok-terminal/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/home/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/home/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/hotel/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/hotel/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/officetel/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/officetel/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/apartment/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/apartment/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/newtown/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/newtown/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/pension-private-stay/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/pension-private-stay/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/station-area/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/station-area/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/tour-accommodation/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/tour-accommodation/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/night/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/night/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/use/outer-area/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/use/outer-area/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/address/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/check/address/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/building-access/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/check/building-access/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/apartment-access/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/check/apartment-access/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/hotel-policy/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/check/hotel-policy/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/pension-policy/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/check/pension-policy/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/travel-fee/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/check/travel-fee/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/time/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/check/time/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/change-policy/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/check/change-policy/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/customer-notice/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/check/customer-notice/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/pricing/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/pricing/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/check/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/privacy/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/check/privacy/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/check/service-policy/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/check/service-policy/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/operation/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/operation/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/contact/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/contact/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://gandago.kr/gyeonggi-north/reviews/</loc>
+    <loc>https://haven-spa.netlify.app/gyeonggi-north/reviews/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://haven-spa.netlify.app/assets/img/hero.webp</image:loc>
+    </image:image>
   </url>
 </urlset>

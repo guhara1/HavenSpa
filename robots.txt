@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gandago.kr/sitemap.xml
+User-agent: Yeti
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://haven-spa.netlify.app/sitemap.xml
+Sitemap: https://haven-spa.netlify.app/rss.xml

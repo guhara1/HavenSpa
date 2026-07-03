@@ -156,7 +156,7 @@ function schemaJson(page) {
   const webUrl = abs(page.path === "/" ? "/" : page.path);
 
   // Organization (모든 페이지). LocalBusiness 미사용 (오프라인 매장 없음).
-  graph.push({
+  const org = {
     "@type": "Organization",
     "@id": orgId,
     name: SITE.name,
@@ -165,7 +165,27 @@ function schemaJson(page) {
     description: "경기북부 출장마사지·홈타이 생활권 및 이용 전 확인사항 안내",
     areaServed: "경기북부",
     logo: { "@type": "ImageObject", url: abs(SITE.ogImage) },
-  });
+  };
+  // 후기·평점 스키마 (게시된 이용 후기 집계, 화면 표시값과 일치)
+  if (SITE.rating) {
+    org.aggregateRating = {
+      "@type": "AggregateRating",
+      ratingValue: SITE.rating.value,
+      reviewCount: SITE.rating.count,
+      bestRating: SITE.rating.best,
+      worstRating: SITE.rating.worst,
+    };
+  }
+  if (page.reviews?.length) {
+    org.review = page.reviews.map((r) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: r.name },
+      datePublished: r.date,
+      reviewRating: { "@type": "Rating", ratingValue: String(r.rating), bestRating: "5", worstRating: "1" },
+      reviewBody: r.text,
+    }));
+  }
+  graph.push(org);
 
   // WebPage
   graph.push({
@@ -241,7 +261,8 @@ export function renderPage(page) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${esc(page.title)}</title>
   <meta name="description" content="${esc(desc)}">
-  <link rel="canonical" href="${canonical}">${noindex}
+  <link rel="canonical" href="${canonical}">${noindex}${SITE.naverVerification ? `\n  <meta name="naver-site-verification" content="${SITE.naverVerification}">` : ""}
+  <link rel="alternate" type="application/rss+xml" title="간다GO 경기북부 안내" href="/rss.xml">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="간다GO">
   <meta property="og:title" content="${esc(page.title)}">
