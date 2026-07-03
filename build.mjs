@@ -17,9 +17,10 @@ import usePages from "./src/pages/use.mjs";
 import checkPages from "./src/pages/check.mjs";
 import lifePages from "./src/pages/life.mjs";
 import dongPages from "./src/pages/dongs.mjs";
+import dongPages2 from "./src/pages/dongs2.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
-const pages = [indexPage, ...areaPages, ...cityPages, ...districtPages, ...lifePages, ...dongPages, ...usePages, ...checkPages, ...infoPages, reviewsPage];
+const pages = [indexPage, ...areaPages, ...cityPages, ...districtPages, ...lifePages, ...dongPages, ...dongPages2, ...usePages, ...checkPages, ...infoPages, reviewsPage];
 
 function outPath(routePath) {
   if (routePath === "/") return join(ROOT, "index.html");

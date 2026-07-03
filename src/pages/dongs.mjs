@@ -13,7 +13,7 @@ const GU = {
 };
 
 // cfg: { path, dong, crumbs:[...parents], life:[name,href], title, description, h1, lead, article, faq, whw }
-function dong(cfg) {
+export function dong(cfg) {
   return topicPage({
     path: cfg.path,
     crumb: cfg.dong,

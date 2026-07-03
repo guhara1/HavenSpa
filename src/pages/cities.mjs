@@ -251,8 +251,9 @@ const paju = cityPage({
     ["운정신도시", L.unjeong], ["야당·와동", L.yadangWadong], ["금촌·파주시청", L.geumchon], ["문산·파주북부", L.munsan],
   ],
   dongs: [
-    ["운정동", L.unjeong], ["동패동", L.unjeong], ["교하동", L.unjeong], ["야당동", L.yadangWadong], ["와동동", L.yadangWadong],
-    ["금촌동", L.geumchon], ["문산읍", L.munsan], ["탄현면", L.munsan], ["조리읍", L.geumchon],
+    ["운정동", "/gyeonggi-north/paju-si/unjeong-dong/"], ["동패동", "/gyeonggi-north/paju-si/dongpae-dong/"], ["교하동", "/gyeonggi-north/paju-si/gyoha-dong/"],
+    ["야당동", "/gyeonggi-north/paju-si/yadang-dong/"], ["와동동", "/gyeonggi-north/paju-si/wadong-dong/"],
+    ["금촌동", "/gyeonggi-north/paju-si/geumchon-dong/"], ["문산읍", "/gyeonggi-north/paju-si/munsan-eup/"], ["탄현면", "/gyeonggi-north/paju-si/tanhyeon-myeon/"], ["조리읍", "/gyeonggi-north/paju-si/jori-eup/"],
   ],
   title: "파주시 출장마사지｜운정신도시·금촌·문산 안내 - 간다GO",
   description: "파주시 출장마사지·홈타이. 운정신도시와 금촌·문산·탄현 접경권 이용 안내.",
@@ -306,8 +307,8 @@ const uijeongbu = cityPage({
     ["의정부역·중앙로", L.uijeongbuCentral], ["민락·고산", L.minrakGosan], ["금오·신곡", L.geumoSingok], ["회룡·가능", L.hoeryongGaneung],
   ],
   dongs: [
-    ["의정부동", L.uijeongbuCentral], ["민락동", L.minrakGosan], ["금오동", L.geumoSingok], ["신곡동", L.geumoSingok],
-    ["가능동", L.hoeryongGaneung], ["호원동", L.hoeryongGaneung], ["녹양동", L.hoeryongGaneung], ["장암동", L.uijeongbuCentral],
+    ["의정부동", "/gyeonggi-north/uijeongbu-si/uijeongbu-dong/"], ["민락동", "/gyeonggi-north/uijeongbu-si/minrak-dong/"], ["금오동", "/gyeonggi-north/uijeongbu-si/geumo-dong/"], ["신곡동", "/gyeonggi-north/uijeongbu-si/singok-dong/"],
+    ["가능동", "/gyeonggi-north/uijeongbu-si/ganeung-dong/"], ["호원동", "/gyeonggi-north/uijeongbu-si/howon-dong/"], ["녹양동", "/gyeonggi-north/uijeongbu-si/nogyang-dong/"], ["장암동", "/gyeonggi-north/uijeongbu-si/jangam-dong/"],
   ],
   title: "의정부시 출장마사지｜의정부역·민락·금오 안내 - 간다GO",
   description: "의정부시 출장마사지·홈타이. 의정부역 상권과 민락·금오·회룡 생활권 안내.",
@@ -359,8 +360,8 @@ const yangju = cityPage({
   subAreasTitle: "양주 생활권 바로가기",
   subAreas: [["양주 옥정", L.okjeong], ["덕정·회천", L.deokjeongHoecheon]],
   dongs: [
-    ["옥정동", L.okjeong], ["고읍동", L.okjeong], ["덕정동", L.deokjeongHoecheon], ["회천동", L.deokjeongHoecheon],
-    ["백석읍", L.deokjeongHoecheon], ["광적면", L.okjeong], ["장흥면", L.deokjeongHoecheon],
+    ["옥정동", "/gyeonggi-north/yangju-si/okjeong-dong/"], ["고읍동", "/gyeonggi-north/yangju-si/goeup-dong/"], ["덕정동", "/gyeonggi-north/yangju-si/deokjeong-dong/"], ["회천동", "/gyeonggi-north/yangju-si/hoecheon-dong/"],
+    ["백석읍", "/gyeonggi-north/yangju-si/baekseok-eup/"], ["광적면", "/gyeonggi-north/yangju-si/gwangjeok-myeon/"], ["장흥면", "/gyeonggi-north/yangju-si/jangheung-myeon/"],
   ],
   title: "양주시 출장마사지｜옥정·회천·덕정 신도시 안내 - 간다GO",
   description: "양주시 출장마사지·홈타이. 옥정·회천 신도시와 덕정·외곽 차량 이동 안내.",
@@ -409,6 +410,10 @@ const yangju = cityPage({
 const guri = cityPage({
   path: "/gyeonggi-north/guri-si/", crumb: "구리시", parent: AREA.ny,
   eyebrow: "도시·군 안내 · 구리시",
+  dongs: [
+    ["인창동", "/gyeonggi-north/guri-si/inchang-dong/"], ["수택동", "/gyeonggi-north/guri-si/sutaek-dong/"],
+    ["교문동", "/gyeonggi-north/guri-si/gyomun-dong/"], ["갈매동", "/gyeonggi-north/guri-si/galmae-dong/"],
+  ],
   title: "구리시 출장마사지｜구리역·인창·수택·갈매 안내 - 간다GO",
   description: "구리시 출장마사지·홈타이. 서울 접경 소형 도시 구리역·인창·갈매 안내.",
   h1: "구리시 출장마사지 · 구리역·인창·수택·갈매 안내",
