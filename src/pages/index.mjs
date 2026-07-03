@@ -1,6 +1,8 @@
 // 경기북부 메인 (/)
 import { pricingBlock, faqBlock, whwBlock, heroMedia } from "../render.mjs";
 import { REVIEWS } from "./reviews.mjs";
+import { NEWTOWN_LINKS } from "./newtowns.mjs";
+import { STATION_LINKS } from "./stations.mjs";
 
 const areaCards = [
   { t: "고양·일산권", d: "일산·마두·백석·화정·삼송·지축. 오피스텔·호텔·상권 중심 도시형 생활권입니다.", h: "/gyeonggi-north/area/goyang-ilsan/" },
@@ -51,8 +53,14 @@ const lifeZones = [
   ["연천 전곡", "/gyeonggi-north/life/jeongok-yeoncheon/"],
 ];
 
-const newtowns = ["일산신도시", "운정신도시", "다산신도시", "별내신도시", "양주 옥정신도시", "의정부 민락", "고양 삼송", "고양 지축", "구리 갈매"];
-const tours = ["가평 펜션 숙소", "청평 리조트", "포천 외곽 숙소", "파주 헤이리·탄현", "연천 접경 지역", "북부 독채 숙소"];
+const tours = [
+  ["가평 펜션 숙소", "/gyeonggi-north/use/gapyeong-pension/"],
+  ["청평·설악 리조트", "/gyeonggi-north/use/cheongpyeong-resort/"],
+  ["포천 외곽 숙소", "/gyeonggi-north/use/pocheon-outer-accommodation/"],
+  ["파주 헤이리·탄현", "/gyeonggi-north/use/heyri-tanhyeon/"],
+  ["연천 접경 지역", "/gyeonggi-north/use/yeoncheon-border-area/"],
+  ["펜션·독채 숙소", "/gyeonggi-north/use/pension-private-stay/"],
+];
 
 const checklist = [
   "방문 주소를 정확히 확인했나요?",
@@ -129,14 +137,21 @@ const body = `
   <section class="section section--tight">
     <div class="wrap">
       <div class="sec-head center"><h2>신도시·택지지구 생활권</h2><p>산업단지보다 신도시·택지지구 이용 기준이 중요합니다.</p></div>
-      <div class="grid grid--3">${newtowns.map((t) => miniCard(t, "/gyeonggi-north/check/")).join("")}</div>
+      <div class="grid grid--3">${NEWTOWN_LINKS.map(([t, h]) => miniCard(t, h)).join("")}</div>
     </div>
   </section>
 
   <section class="section section--tight">
     <div class="wrap">
       <div class="sec-head center"><h2>관광·펜션·외곽 이동권</h2><p>경기북부만의 차별화 카테고리입니다.</p></div>
-      <div class="grid grid--3">${tours.map((t) => miniCard(t, "/gyeonggi-north/area/pocheon-dongducheon-gapyeong-yeoncheon/")).join("")}</div>
+      <div class="grid grid--3">${tours.map(([t, h]) => miniCard(t, h)).join("")}</div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="sec-head center"><h2>역세권·터미널 바로가기</h2><p>출구별·노선별 페이지 없이 방문 주소 기준으로 안내합니다.</p></div>
+      <div class="chiprow" style="justify-content:center">${STATION_LINKS.map(([t, h]) => `<a class="chip" href="${h}">${t}</a>`).join("")}</div>
     </div>
   </section>
 
