@@ -1,5 +1,7 @@
 // 5대 북부 생활권 페이지
 import { pricingBlock, faqBlock, whwBlock, heroMedia } from "../render.mjs";
+import { zoneCard } from "./cities.mjs";
+import { LIFE_LINKS } from "./life.mjs";
 
 const checklist = [
   "방문 주소와 상세 동·호수를 확인했나요?",
@@ -37,7 +39,7 @@ function areaPage(cfg) {
   <section class="section section--tight">
     <div class="wrap">
       <div class="sec-head center"><h2>${cfg.h1.split("·")[0].trim()} 대표 생활권</h2></div>
-      <div class="grid grid--3">${cfg.zones.map((z) => `<div class="card"><h3 style="font-size:1.05rem">${z.t}</h3><p>${z.d}</p></div>`).join("")}</div>
+      <div class="grid grid--3">${cfg.zones.map((z) => zoneCard(z, LIFE_LINKS, cfg.dongs, cfg.subAreas)).join("")}</div>
     </div>
   </section>
 

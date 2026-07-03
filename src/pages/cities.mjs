@@ -14,6 +14,27 @@ const checklist = [
 const relCard = (t, h) => `<a class="card card--link" href="${h}"><h3 style="font-size:1.05rem">${t}</h3></a>`;
 const chip = (t) => `<span class="chip" style="cursor:default">${t}</span>`;
 
+// 존 카드 제목을 페이지의 행정동/구 링크와 자동 매칭해 클릭 가능하게 만든다.
+export function zoneHref(title, ...lists) {
+  const key = String(title).split(/[·\s(]/)[0];
+  // 1순위: 정확/접두 일치 (title 우선)  2순위: 첫 토큰(key) 접두 일치
+  for (const arr of lists) {
+    if (!arr) continue;
+    for (const [name, href] of arr) if (name === title || name.startsWith(title)) return href;
+  }
+  for (const arr of lists) {
+    if (!arr) continue;
+    for (const [name, href] of arr) if (name === key || name.startsWith(key)) return href;
+  }
+  return null;
+}
+export function zoneCard(z, ...lists) {
+  const h = z.h || zoneHref(z.t, ...lists);
+  return h
+    ? `<a class="card card--link" href="${h}"><h3 style="font-size:1.05rem">${z.t}</h3><p>${z.d}</p></a>`
+    : `<div class="card card--static"><h3 style="font-size:1.05rem">${z.t}</h3><p>${z.d}</p></div>`;
+}
+
 export function cityPage(cfg) {
   const body = `
   <section class="hero">
@@ -38,7 +59,7 @@ export function cityPage(cfg) {
   <section class="section section--tight">
     <div class="wrap">
       <div class="sec-head center"><h2>${cfg.crumb} 대표 생활권</h2></div>
-      <div class="grid grid--3">${cfg.zones.map((z) => `<div class="card"><h3 style="font-size:1.05rem">${z.t}</h3><p>${z.d}</p></div>`).join("")}</div>
+      <div class="grid grid--3">${cfg.zones.map((z) => zoneCard(z, cfg.dongs, cfg.subAreas)).join("")}</div>
     </div>
   </section>
 

@@ -607,7 +607,7 @@ const jeongok = life({
   whw: { who: "연천 전곡 생활권을 상담하는 간다GO 예약 안내팀입니다.", how: "전곡 거점과 접경 외곽을 구분해 이동 기준을 안내합니다.", why: "최북단 접경이라 장거리 이동·예약 시간 확인이 핵심이기 때문입니다." },
 });
 
-export default [
+const ALL = [
   ilsanLake, maduBaekseok, juyeopDaehwa, hwajeongHaengsin, samsongWonheung, jichukHyangdong,
   dasanDonong, byeollaeGalmae, pyeongnaeHopyeong, jinjeopOnam, hwadoMaseok,
   uijeongbuCentral, minrakGosan, geumoSingok, hoeryongGaneung,
@@ -615,3 +615,8 @@ export default [
   unjeong, yadangWadong, geumchon, munsan,
   songuriSoheul, jihaengSaengyeon, gapyeongCheongpyeong, jeongok,
 ];
+
+// area 존 카드 자동 링크용: [생활권명, URL]
+export const LIFE_LINKS = ALL.map((p) => [p.crumbs[p.crumbs.length - 1].name, p.path]);
+
+export default ALL;
